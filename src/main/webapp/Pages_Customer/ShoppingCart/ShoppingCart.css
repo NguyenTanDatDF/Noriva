@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+.shopping__cart__table{
+  padding: 0;
+}
 .shopping__cart__image {
   display: flex;
   justify-content: center;
@@ -63,4 +66,21 @@ input::-webkit-inner-spin-button {
 }
 .thead-dark tr th {
   text-align: center;
+}
+.shopping__cart_container{
+  margin-top: 30px;
+}
+html{
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 1024px){
+  html{
+    overflow-x: hidden;
+  }
+  .continue__btn{
+    border: none;
+  }
+}
+@media only screen and (max-width: 400px){
+
 }

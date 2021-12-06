@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 h1 {
   font-size: 20px;
 }
@@ -16,4 +19,24 @@ h1 {
 .view__detail:hover {
   color: black;
   background-color: white;
+}
+@media only screen and (max-width: 400px){
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .about__us__paragraph{
+    margin: 0 30px;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
 }

@@ -67,8 +67,8 @@ public class PaymentServices {
 	
 	private RedirectUrls getRedirectURLs() {
 		RedirectUrls redirectUrls = new RedirectUrls();
-		redirectUrls.setCancelUrl("http://localhost:8080/project_web_final/cancel.jsp");
-		redirectUrls.setReturnUrl("http://localhost:8080/project_web_final/review_payment");
+		redirectUrls.setCancelUrl("http://localhost:8079/project_web_final_war/cancel.jsp");
+		redirectUrls.setReturnUrl("http://localhost:8079/project_web_final_war/review_payment");
 		
 //		redirectUrls.setCancelUrl("https://nhom1avengerteam.herokuapp.com/cancel.jsp");
 //		redirectUrls.setReturnUrl("https://nhom1avengerteam.herokuapp.com/review_payment");

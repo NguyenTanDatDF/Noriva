@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 h1 {
   font-size: 20px;
 }
@@ -26,4 +29,36 @@ span {
 .btnn:hover {
   background-color: white;
   color: #222222;
+}
+.container__btn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+input{
+  width: 100%;
+}
+@media only screen and (max-width: 400px){
+  .about__us__paragraph{
+    margin: 0 30px;
+  }
+  h1, .descript{
+    text-align: center;
+  }
+  .back{
+    display: none;
+  }
+  .form__container{
+    margin-bottom: 50px;
+  }
+  .form-control{
+    width: 310px;
+  }
+  legend{
+    text-align: center;
+  }
+  .title__info{
+    font-size: 30px;
+    text-align: center;
+  }
 }

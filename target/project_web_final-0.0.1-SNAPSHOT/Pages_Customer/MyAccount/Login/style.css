@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 h1 {
   font-size: 20px;
 }
@@ -22,7 +25,7 @@ h1 {
   border: 1px solid black;
 }
 .card-body__1 {
-  width: 530px;
+  width: auto;
   height: auto;
   border: 1px solid #777777;
   padding: 19px;
@@ -64,7 +67,7 @@ h1 {
   font-weight: bold;
 }
 .card-body__2 {
-  width: 530px;
+  width: auto;
   height: auto;
   border: 1px solid #777777;
   padding: 19px;
@@ -72,4 +75,21 @@ h1 {
 .card-body__2 strong {
   color: #222222;
   font-size: 14px;
+}
+@media only screen and (max-width: 400px){
+  .card__1{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .about__us__paragraph{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #content{
+    margin-top: -50px;
+    margin-bottom: -250px;
+  }
 }

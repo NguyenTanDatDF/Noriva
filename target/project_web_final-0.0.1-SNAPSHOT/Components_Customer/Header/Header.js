@@ -9,52 +9,42 @@ $(document).ready(function() {
         </a>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="CustomerHome" class="nav-link px-2 link-dark">Home</a></li>
+          <li><a href="CustomerHome" class="nav-link home__btn px-2 link-dark">Home</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#"> Men's Shoes </a>
             <div class="dropdown__items">
               <ul>
-                <li><a class="dropdown-item" href="#"> Casual</a></li>
-                <li><a class="dropdown-item" href="#"> Football </a></li>
-                <li><a class="dropdown-item" href="#"> Jordan </a></li>
-                <li><a class="dropdown-item" href="#"> Lifestyle </a></li>
-                <li><a class="dropdown-item" href="#"> Running </a></li>
-                <li><a class="dropdown-item" href="#"> Soccer </a></li>
-                <li><a class="dropdown-item" href="#"> Sport </a></li>
+                <li><a class="dropdown-item" href="#"> Nike</a></li>
+                <li><a class="dropdown-item" href="#"> Converse </a></li>
+                <li><a class="dropdown-item" href="#"> Adidas </a></li>
+                <li><a class="dropdown-item" href="#"> Puma </a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="CustomerHome"> Men's Shoes </a>
+            <a class="nav-link" href="CustomerHome"> Women's Shoes </a>
             <div class="dropdown__items">
               <ul>
-                <li><a class="dropdown-item" href="#"> Casual</a></li>
-                <li><a class="dropdown-item" href="#"> Football </a></li>
-                <li><a class="dropdown-item" href="#"> Jordan </a></li>
-                <li><a class="dropdown-item" href="#"> Lifestyle </a></li>
-                <li><a class="dropdown-item" href="#"> Running </a></li>
-                <li><a class="dropdown-item" href="#"> Soccer </a></li>
-                <li><a class="dropdown-item" href="#"> Sport </a></li>
+                <li><a class="dropdown-item" href="#"> Nike</a></li>
+                <li><a class="dropdown-item" href="#"> Converse </a></li>
+                <li><a class="dropdown-item" href="#"> Adidas </a></li>
+                <li><a class="dropdown-item" href="#"> Puma </a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="#"> Men's Shoes </a>
+            <a class="nav-link" href="#"> Sportswear Collection </a>
             <div class="dropdown__items">
               <ul>
-                <li><a class="dropdown-item" href="#"> Casual</a></li>
-                <li><a class="dropdown-item" href="#"> Football </a></li>
-                <li><a class="dropdown-item" href="#"> Jordan </a></li>
-                <li><a class="dropdown-item" href="#"> Lifestyle </a></li>
-                <li><a class="dropdown-item" href="#"> Running </a></li>
-                <li><a class="dropdown-item" href="#"> Soccer </a></li>
-                <li><a class="dropdown-item" href="#"> Sport </a></li>
+                <li><a class="dropdown-item" href="#"> GYM</a></li>
+                <li><a class="dropdown-item" href="#"> YOGA </a></li>
+                <li><a class="dropdown-item" href="#"> Swimming </a></li>
               </ul>
             </div>
           </li>
         </ul>
 
-        <div class="col-md-3 text-end  header__right">
+        <div class="text-end header__right">
           <button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
             aria-controls="offcanvasTop"><i class="fas fa-search"></i>
           </button>
